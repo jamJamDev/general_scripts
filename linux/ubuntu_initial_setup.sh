@@ -11,6 +11,11 @@ apt-get install libxss1 libappindicator1 libindicator7 -y
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 dpkg -i google-chrome*.deb
 
+# Install & configure Git
+apt install git
+git config --global user.email "jamielthompson29.jt@gmail.com"
+git config --global user.name "jamielthompson29"
+
 # Install Node & npm
 apt-get install nodejs -y
 apt-get install npm -y
